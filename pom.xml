@@ -22,7 +22,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/bhatsac/maven-artifactory</url>
+      <url>https://maven.pkg.github.com/maven-public/maven-artifactory</url>
     </repository>
   </distributionManagement>
 
