@@ -79,11 +79,12 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>internal.repo</id>
-      <name>Temporary Staging Repository</name>
-      <url>file://${project.build.directory}/mvn-artifact</url>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/maven-artifactory</url>
     </repository>
   </distributionManagement>
+
   <properties>
     <!--Put your own properties -->
     <repository-owner>Put-repo-owner</repository-owner>
